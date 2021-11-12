@@ -18,3 +18,9 @@ This keymap uses the Lily58's default layout. You could change this in `keymap.c
 This keymap adds text to the left OLED to show your current estimated WPM, as well as what layer you are on.
 
 This keymap adds a Bongo Cat animation loop on the right OLED. It does not currently react to text/etc.
+
+# Known Issues
+
+The WPM meter from the original repo is not great. I'd like to look into making it better.
+
+The OLEDs do not wake as expected -- sometimes flickering or refusing to come back on. This is tracked in Issue 1.
