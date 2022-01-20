@@ -13,7 +13,7 @@ This SHOULD compile and run with no issues assuming:
 
 # What it does
 
-This keymap uses the Lily58's default layout. You could change this in `keymap.c` towards the top if desired.
+`keymap.c` in a previous commit used the original layout -- utilize that if desired. The latest in `master` uses a personalized version, improving the nav cluster (imo.)
 
 This keymap adds text to the left OLED to show your current estimated WPM, as well as what layer you are on.
 
