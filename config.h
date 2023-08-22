@@ -22,7 +22,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Select hand configuration */
 
+#define SPLIT_USB_DETECT
 #define MASTER_LEFT
+#define SPLIT_USB_TIMEOUT 2000
+#define SPLIT_WATCHDOG_ENABLE
+#define SPLIT_WATCHDOG_TIMEOUT 3000
+
 // #define MASTER_RIGHT
 // #define EE_HANDS
 #define SPLIT_WPM_ENABLE
